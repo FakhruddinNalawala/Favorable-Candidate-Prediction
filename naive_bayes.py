@@ -12,7 +12,7 @@ from matplotlib import rc
 from sklearn.model_selection import train_test_split
 from collections import Counter, defaultdict
 from stop_words import get_stop_words
-import pickle
+
 
 tweets_data_path = 'data.csv'
 
@@ -88,7 +88,7 @@ df_test = df_test.reset_index(drop=True)
 # Start training (input training set df_train)
 class TweetNBClassifier(object):
 
-    def __init__(self, df_train):
+    def _init_(self, df_train):
         self.df_train = df_train
         self.df_pos = df_train.copy()[df_train.sentiment == 4]
         self.df_neg = df_train.copy()[df_train.sentiment == 0]
@@ -159,21 +159,8 @@ class TweetNBClassifier(object):
         return accuracy
 
 
-# tnb = TweetNBClassifier(df_train)
-# tnb = tnb.fit()
-
-filename = 'finalized_model.sav'
-# load the model from disk
-loaded_model = pickle.load(open(filename, 'rb'))
-predict = loaded_model.predict(df_test)
-result = loaded_model.score(predict,df_test.sentiment.tolist())
-print(result)
-
-
-# score = tnb.score(predict,df_test.sentiment.tolist())
-# print(score)
-
-
-
-# pickle.dump(tnb, open(filename, 'wb'))
-
+tnb = TweetNBClassifier(df_train)
+tnb = tnb.fit()
+predict = tnb.predict(df_test)
+score = tnb.score(predict,df_test.sentiment.tolist())
+print(score)
