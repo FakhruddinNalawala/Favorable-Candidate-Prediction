@@ -1,31 +1,39 @@
 # Election
 This is the working directory for our project. 
 
-TWEETS.PY  </br>
-This is the script that will scrape tweets from Twitter.   
-Set up a MongoDB database and query the results into the database.   
-We can't set all these fields into the querysearch using this Library. Use as Required.    
+explaining all files ---
 
-setUsername (str or iterable): An optional specific username(s) from a twitter account (with or without "@").   </br>
-setSince (str. "yyyy-mm-dd"): A lower bound date (UTC) to restrict search.  </br>
-setUntil (str. "yyyy-mm-dd"): An upper bound date (not included) to restrict search.</br>  
-setQuerySearch (str): A query text to be matched.</br>
-setTopTweets (bool): If True only the Top Tweets will be retrieved.</br>
-setNear(str): A reference location area from where tweets were generated.(Name woks but longitude and latitude works better, try it out)</br>
-setWithin (str): A distance radius from "near" location (e.g. 15mi).</br>
-setMaxTweets (int): The maximum number of tweets to be retrieved. If this number is unsetted or lower than 1 all possible tweets will be retrieved.(We need a lot of tweets. Two datasets will be created test and train .)</br>
+1. Images 
+    output of result_visualization.py . Contains all images as output for visualizations ran on labelled files
 
-We can retrieve all these data points from each tweet</br>
-id (str)  !!NEEDED!!</br>
-permalink (str)</br>
-username (str)</br>
-to (str)</br>
-text (str) !!NEEDED!!</br>
-date (datetime) in UTC !!NEEDED!!</br>
-retweets (int) !!NEEDED!!</br>
-favorites (int) </br>
-mentions (str) </br>
-hashtags (str) !!NEEDED!! </br>
-geo (str) !!NEEDED!!</br>
+2. bingnews.py
+    script to scrape news articles . (COMMENTS NEED TO BE ADDED)
 
-Once a database is ready, make sure there's a backup, because we'll be running random things a lot(?). 
+3. BJP_Labelled.csv and INC_Labelled.csv 
+    output of vaderSentiment.py . Contains the BJP and INC dataset labelled POS,NEG,NEU by the program.
+
+4. LOgistic Regression , SVM , RandomForest , XGBoost are the programs for the respective ML models. 
+    comments have been added to Logistic Regression file for understanding. other files have almost similar codes. 
+
+5. preprocess.py
+    preprocessing and cleaning of data for the ML models . comments added
+
+6. procBJPtweets.csv and procINCtweets.csv  are the datasets for BJP and INC tweets . 
+    (PS - More INC tweets needed.. not enough )
+
+7. result_visualizatiojn.py
+    visualtions done on BJP_Labelled.csv and INC_Labelled.csv . preprocessing included . Comments added. 
+
+8. train.csv 
+    60k tweets for training all ML models . small part of the 16 million tweets dataset uploaded in Google drive in the TRAINING DATASET folder
+
+9. tweets.py   
+    script to fetch twitter data
+
+10. vaderSentiment.py
+    classifies tweets in dataset as POS,NEG,NEU using VADER  lexicon based approach
+
+11. visual.py
+    contains visualization done on train.csv . ##TEST VISUALIZATIONS##
+    
+
