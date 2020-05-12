@@ -12,7 +12,7 @@ explaining all files ---
 3. BJP_Labelled.csv and INC_Labelled.csv 
     output of vaderSentiment.py . Contains the BJP and INC dataset labelled POS,NEG,NEU by the program.
 
-4. LOgistic Regression , SVM , RandomForest , XGBoost are the programs for the respective ML models. 
+4. Logistic Regression , SVM , RandomForest , XGBoost,Naive bayes are the programs for the respective ML models. 
     comments have been added to Logistic Regression file for understanding. other files have almost similar codes. 
 
 5. preprocess.py
@@ -35,5 +35,8 @@ explaining all files ---
 
 11. visual.py
     contains visualization done on train.csv . ##TEST VISUALIZATIONS##
+ 
+12. data.csv
+    dataset required for naive_bayes.py contains 40.5k tweets( equal ratio of pos and neg)
     
 
