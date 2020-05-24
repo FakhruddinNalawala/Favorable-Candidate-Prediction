@@ -37,6 +37,12 @@ explaining all files ---
     contains visualization done on train.csv . ##TEST VISUALIZATIONS##
  
 12. data.csv
-    dataset required for naive_bayes.py contains 40.5k tweets( equal ratio of pos and neg)
+    dataset required for naive_bayes.py contains 40.5k tweets( equal ratio of pos and neg
+    
+13. kaggle.py
+    It is consolidated code with various graphical representations. Uses LS_2.0.csv as dataset.
+    
+14. LS_2.0.csv
+    Dataset for kaggle.py
     
 
