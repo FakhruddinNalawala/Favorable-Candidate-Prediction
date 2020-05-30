@@ -39,10 +39,16 @@ explaining all files ---
 12. data.csv
     dataset required for naive_bayes.py contains 40.5k tweets( equal ratio of pos and neg
     
-13. kaggle.py
+13. pred.py
     It is consolidated code with various graphical representations. Uses LS_2.0.csv as dataset.
     
 14. LS_2.0.csv
     Dataset for kaggle.py
     
+15. accuracy.py
+    compares the accuracy of predicted winners with the actual winners.
+
+16. Winners.csv
+    Consolidated dataset with all winners of karnataka 2019 elections.
+
 
