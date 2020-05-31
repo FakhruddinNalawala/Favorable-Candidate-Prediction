@@ -1,0 +1,17 @@
+header {
+    padding: 20px;
+    background-color: red;
+    margin-bottom: 12vh;
+}
+
+td, th  {
+    font-size: large;
+}
+
+.image-holder    {
+    border: 5px solid black !important;
+    border-radius: 15px;
+    padding: 5vh;
+    margin: 5vh 0vh 5vh 0vh; 
+    width: 500px;
+}
