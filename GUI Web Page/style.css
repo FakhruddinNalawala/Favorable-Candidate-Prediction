@@ -1,21 +1,19 @@
+body    {   background-color: #E8E8E8 !important;   }
+
 header {
     padding: 20px;
     background-color: red;
-    margin-bottom: 12vh;
+    /* margin-bottom: 11vh; */
 }
 
-body    {
-    background-color: #E8E8E8 !important;
-}
+main    {   margin-top: 85.7px !important;  }
 
 table   {
     border: 5px solid black !important;
     border-radius: 15px !important;
 }
 
-td, th  {
-    font-size: large;
-}
+td, th  {   font-size: large;   }
 
 .image-holder    {
     background-color: white !important;
@@ -23,4 +21,9 @@ td, th  {
     border-radius: 15px;
     padding: 5vh;
     margin: 5vh 0vh 5vh 0vh;
+}
+
+#bottom-menu    {
+    color: white !important;
+    text-align: right !important;
 }
