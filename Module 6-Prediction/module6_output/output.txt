@@ -1,0 +1,344 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2263 entries, 0 to 2262
+Data columns (total 19 columns):
+ #   Column                                   Non-Null Count  Dtype  
+---  ------                                   --------------  -----  
+ 0   state                                    2263 non-null   object 
+ 1   constituency                             2263 non-null   object 
+ 2   name                                     2263 non-null   object 
+ 3   winner                                   2263 non-null   int64  
+ 4   party                                    2263 non-null   object 
+ 5   symbol                                   2018 non-null   object 
+ 6   gender                                   2018 non-null   object 
+ 7   criminal_cases                           2018 non-null   object 
+ 8   age                                      2018 non-null   float64
+ 9   category                                 2018 non-null   object 
+ 10  education                                2018 non-null   object 
+ 11  assets                                   2018 non-null   object 
+ 12  liabilities                              2018 non-null   object 
+ 13  general_votes                            2263 non-null   int64  
+ 14  postal_votes                             2263 non-null   int64  
+ 15  total_votes                              2263 non-null   int64  
+ 16  over_total_electors_in_constituency      2263 non-null   float64
+ 17  over_total_votes_polled_in_constituency  2263 non-null   float64
+ 18  total_electors                           2263 non-null   int64  
+dtypes: float64(3), int64(5), object(11)
+memory usage: 336.0+ KB
+number of indian states:  36
+75 women succeded from  258
+state is :  Uttar Pradesh
+winner woman:  Rita Bahuguna Joshi  constituency:  ALLAHABAD
+winner woman:  Smriti Irani  constituency:  AMETHI
+winner woman:  REKHA VERMA  constituency:  DHAURAHRA
+winner woman:  NIRANJAN JYOTI  constituency:  FATEHPUR
+winner woman:  Sangeeta Azad  constituency:  LALGANJ
+winner woman:  HEMA MALINI  constituency:  MATHURA
+winner woman:  Anupriya Singh Patel  constituency:  MIRZAPUR
+winner woman:  Keshari Devi Patel  constituency:  PHULPUR
+winner woman:  SONIA GANDHI  constituency:  RAE BARELI
+winner woman:  MANEKA SANJAI GANDHI  constituency:  SULTANPUR
+state is :  Gujarat
+winner woman:  DR.BHARATIBEN DHIRUBHAI SHIYAL  constituency:  BHAVNAGAR
+winner woman:  RATHVA GITABEN VAJESINGBHAI  constituency:  CHHOTA UDAIPUR
+winner woman:  POONAMBEN HEMATBHAI MAADAM  constituency:  JAMNAGAR
+winner woman:  SHARDABEN ANILBHAI PATEL  constituency:  MAHESANA
+winner woman:  Darshana Vikram Jardosh  constituency:  SURAT
+winner woman:  RANJANBEN BHATT  constituency:  VADODARA
+state is :  Kerala
+winner woman:  RAMYA HARIDAS  constituency:  ALATHUR
+state is :  West Bengal
+winner woman:  APARUPA PODDAR (AFRIN ALI)  constituency:  ARAMBAGH
+winner woman:  Dr. Kakoli Ghoshdastidar  constituency:  BARASAT
+winner woman:  Nusrat Jahan Ruhi  constituency:  BASIRHAT
+winner woman:  SATABDI ROY  constituency:  BIRBHUM
+winner woman:  LOCKET CHATTERJEE  constituency:  HOOGHLY
+winner woman:  MIMI CHAKRABORTY  constituency:  JADAVPUR
+winner woman:  PRATIMA MONDAL  constituency:  JAYNAGAR
+winner woman:  Mala Roy  constituency:  KOLKATA DAKSHIN
+winner woman:  MAHUA MOITRA  constituency:  KRISHNANAGAR
+winner woman:  DEBASREE CHAUDHURI  constituency:  RAIGANJ
+winner woman:  SAJDA AHMED  constituency:  ULUBERIA
+state is :  Andhra Pradesh
+winner woman:  CHINTA ANURADHA  constituency:  AMALAPURAM
+winner woman:  Dr.Beesetti Venkata Satyavathi  constituency:  ANAKAPALLI
+winner woman:  GODDETI. MADHAVI  constituency:  ARUKU
+winner woman:  VANGA GEETHAVISWANATH  constituency:  KAKINADA
+state is :  Haryana
+winner woman:  Sunita Duggal  constituency:  SIRSA
+state is :  Maharashtra
+winner woman:  Navnit Ravi Rana  constituency:  AMRAVATI
+winner woman:  Supriya Sule  constituency:  BARAMATI
+winner woman:  Pritam Gopinathrao Munde  constituency:  BEED
+winner woman:  Dr. Bharati Pravin Pawar  constituency:  DINDORI
+winner woman:  POONAM MAHAJAN  constituency:  MUMBAI NORTH CENTRAL
+winner woman:  Dr. Heena Vijaykumar Gavit  constituency:  NANDURBAR
+winner woman:  Khadse Raksha Nikhil  constituency:  RAVER
+winner woman:  Bhavana Pundlikrao Gawali  constituency:  YAVATMAL-WASHIM
+state is :  Punjab
+winner woman:  Harsimrat Kaur Badal  constituency:  BATHINDA
+winner woman:  Preneet Kaur  constituency:  PATIALA
+state is :  Jammu & Kashmir
+state is :  Tamil Nadu
+winner woman:  T.SUMATHY (A) THAMIZHACHI THANGAPANDIAN  constituency:  CHENNAI SOUTH
+winner woman:  Jothimani S  constituency:  KARUR
+winner woman:  KANIMOZHI KARUNANIDHI  constituency:  THOOTHUKKUDI
+state is :  Arunachal Pradesh
+state is :  Odisha
+winner woman:  Pramila Bisoyi  constituency:  ASKA
+winner woman:  MANJULATA MANDAL  constituency:  BHADRAK
+winner woman:  APARAJITA SARANGI  constituency:  BHUBANESWAR
+winner woman:  Sangeeta Kumari Singh Deo  constituency:  BOLANGIR
+winner woman:  RAJASHREE MALLICK  constituency:  JAGATSINGHPUR
+winner woman:  SARMISTHA SETHI  constituency:  JAJPUR
+state is :  Karnataka
+winner woman:  SUMALATHA AMBAREESH  constituency:  MANDYA
+winner woman:  SHOBHA KARANDLAJE  constituency:  UDUPI CHIKMAGALUR
+state is :  Bihar
+winner woman:  RAMA DEVI  constituency:  SHEOHAR
+winner woman:  Kavita Singh  constituency:  SIWAN
+winner woman:  Veena Devi (W/o Dinesh Prasad Singh)  constituency:  VAISHALI
+state is :  Rajasthan
+winner woman:  RANJEETA KOLI  constituency:  BHARATPUR
+winner woman:  Jaskaur Meena  constituency:  DAUSA
+winner woman:  Diya Kumari  constituency:  RAJSAMAND
+state is :  Madhya Pradesh
+winner woman:  SANDHYA RAY  constituency:  BHIND
+winner woman:  SADHVI PRAGYA SINGH THAKUR  constituency:  BHOPAL
+winner woman:  HIMADRI SINGH  constituency:  SHAHDOL
+winner woman:  Riti Pathak  constituency:  SIDHI
+state is :  Chandigarh
+winner woman:  KIRRON KHER  constituency:  CHANDIGARH
+state is :  Dadra & Nagar Haveli
+state is :  Chhattisgarh
+winner woman:  JYOTSNA CHARANDAS MAHANT  constituency:  KORBA
+winner woman:  GOMATI SAI  constituency:  RAIGARH
+winner woman:  Renuka Singh Saruta  constituency:  SARGUJA
+state is :  NCT OF Delhi
+winner woman:  MEENAKASHI LEKHI  constituency:  NEW DELHI
+state is :  Assam
+winner woman:  QUEEN OJA  constituency:  GAUHATI
+state is :  Telangana
+winner woman:  Kavitha Malothu  constituency:  MAHABUBABAD
+state is :  Jharkhand
+winner woman:  ANNPURNA DEVI  constituency:  KODARMA
+winner woman:  GEETA KORA  constituency:  SINGHBHUM
+state is :  Puducherry
+state is :  Uttarakhand
+winner woman:  MALA RAJYA LAXMI SHAH  constituency:  TEHRI GARHWAL
+state is :  Tripura
+winner woman:  Pratima Bhoumik  constituency:  TRIPURA WEST
+state is :  Meghalaya
+winner woman:  AGATHA K. SANGMA  constituency:  TURA
+edcational level:  12th Pass
+0.26953125
+edcational level:  Post Graduate
+0.268389662027833
+edcational level:  nan
+edcational level:  Doctorate
+0.3150684931506849
+edcational level:  Graduate
+0.29931972789115646
+edcational level:  Others
+0.34
+edcational level:  10th Pass
+0.22959183673469388
+edcational level:  8th Pass
+0.15384615384615385
+edcational level:  Graduate Professional
+0.29464285714285715
+edcational level:  Literate
+0.06666666666666667
+edcational level:  Illiterate
+0.2
+edcational level:  5th Pass
+0.14285714285714285
+edcational level:  Not Available
+0.0
+{'SOYAM BAPU RAO': 3699618, 'Satyapal Singh Baghel': -1546259, 'Dr. SUJAY RADHAKRISHNA VIKHEPATIL': 567006290, 'Patel Hasmukhbhai Somabhai': 63324205, 'DR. KIRIT P. SOLANKI': 3974948, 'Bhagirath Chaudhary': 67979535, "Devendra Singh 'Bhole'": 60781257, 'Dhotre Sanjay Shamrao': -54431774, 'Adv. A M ARIFF': 83666499, 'RAMYA HARIDAS': 8165211, 'SATISH KUMAR GAUTAM': 541533708, 'JOHN BARLA': 7301814, 'Rita Bahuguna Joshi': 33019676, 'Ajay Tamta': 4396544, 'Balak Nath': 929523, 'CHINTA ANURADHA': 32220474, 'RATTAN LAL KATARIA': 49099554, 'Ritesh Pandey': 93817758, 'Smriti Irani': 609991011, 'Navnit Ravi Rana': 558568455, 'Kachhadiya Naranbhai Bhikhabhai': 75339305, 'GURJEET SINGH AUJLA': 68258213, 'KUNWAR DANISH ALI': 18740546, 'Dr.Beesetti Venkata Satyavathi': -3512952, 'PATEL MITESH RAMESHBHAI (BAKABHAI)': -3057371, 'Manish Tewari': 860374615, 'TALARI RANGAIAH': 3699660, 'HASNAIN MASOODI': 67220768, 'KULDEEP RAI SHARMA': -74717835, 'DHARMENDRA KASHYAP': 47263739, 'S. JAGATHRAKSHAKAN': 8005812825, 'APARUPA PODDAR (AFRIN ALI)': 59722809, 'VISHNU PRASAD M K': 765135180, 'PRADEEP KUMAR SINGH': 3765139, 'R. K. Singh': 72071997, 'GODDETI. MADHAVI': 179411, 'Tapir Gao': 259286613, 'KIREN RIJIJU': 79521, 'BABUL SUPRIYO': 80792668, 'Pramila Bisoyi': 470327, 'Adv. ADOOR PRAKASH': 544461252, 'SUSHIL KUMAR SINGH': 103883179, 'Imtiaz Jaleel Syed': 76862884, 'NARESH YADAV': 17774013, 'HOREN SING BEY': 54997403, 'Akhilesh Yadav': 166592509, 'Gaddigoudar Parvatagouda Chandanagouda': 56461615, 'Dr. SATYAPAL SINGH': 79395817, 'ADHIR RANJAN CHOWDHURY': 427310625, 'AKSHAIBAR LAL': 45058734, 'DR DHAL SINGH BISEN': 6415853, 'PRATAP CHANDRA SARANGI': 2364453, 'Virendra Singh': 31998442, 'Sukanta Majumdar': 6955737, 'PARBATBHAI SAVABHAI PATEL': 17719139, 'R.K. SINGH PATEL': 8694575, 'P. C. Mohan': -650916956, 'D.V. Sadananda Gowda': -113174990, 'D.K. SURESH': 6866880032, 'TEJASVI SURYA': 5934613, 'SHANTANU THAKUR': 3886552, 'GIRIDHARI YADAV': 4315927, 'DR. SUBHAS SARKAR': 39143839, 'Kamlesh Paswan': 880416757, 'KANAKMAL KATARA': 83117258, 'NANDIGAM SURESH': 6105149, 'Upendra Singh Rawat': 5003670, 'Supriya Sule': 7048888346, 'MOHAMMAD AKBAR LONE': -587582, 'Dr. Kakoli Ghoshdastidar': 1231440, 'S.S AHLUWALIA': 74945205, 'SUNIL KUMAR MONDAL': 27772551, 'PARBHUBHAI NAGARBHAI VASAVA': 13053196, 'SANTOSH KUMAR GANGWAR': 121611011, 'Suresh Pujari': 42973161, 'KAILASH CHOUDHARY': 2500224, 'Abdul Khaleque': 609546, 'ARJUN SINGH': 6915569, 'Nusrat Jahan Ruhi': -21692779, 'DEEPAK BAIJ': 572059, 'HARISH CHANDRA ALIAS HARISH DWIVEDI': 2956063, 'Harsimrat Kaur Badal': 8101474277, 'Pritam Gopinathrao Munde': 3230, 'Giriraj Singh': 57688087, 'ANGADI SURESH CHANNABASAPPA': -113152283, 'Y. DEVENDRAPPA': 87806512, 'CHANDRA SEKHAR SAHU': 98916171, 'DURGA DAS (D.D.) UIKEY': 52409783, 'RAMESH CHAND': -26506753, 'MANJULATA MANDAL': 87622054, 'AJAY KUMAR MANDAL': -6216285, 'Sunil Baburao Mendhe': 581575581, 'RANJEETA KOLI': 1901731, 'Mansukhbhai Dhanjibhai Vasava': 9573568, 'DR.BHARATIBEN DHIRUBHAI SHIYAL': 15784835, 'SUBHASH CHANDRA BAHERIA': 272230005, 'SANDHYA RAY': 66007774, 'KAPIL MORESHWAR PATIL': 776914285, 'Dharambir Singh S/o Bhale Ram': 20541664, 'Komati Reddy Venkat Reddy': 832463114, 'SADHVI PRAGYA SINGH THAKUR': 224444, 'APARAJITA SARANGI': 50484220, 'BHAGWANTH KHUBA': 41597164, 'JIGAJINAGI RAMESH CHANDAPPA': 985224134, 'MALOOK NAGAR': -1551964519, 'ARJUN RAM MEGHWAL': 42778342, 'ARUN SAO': 58844301, 'SATABDI ROY': 27948003, 'KHAN SAUMITRA': 6567976, 'Sangeeta Kumari Singh Deo': 851909462, 'ASIT KUMAR MAL': 6911013, 'BHOLA SINGH': 86128871, 'Jadhav Prataprao Ganpatrao': 966243854, 'Ashwini Kumar Choubey': 54608001, 'BENNY BEHANAN': 92222883, 'V. SRINIVAS PRASAD': 440134571, 'Dr. Mahendra Nath Pandey': 73459333, 'KIRRON KHER': 572946985, 'HARSH VARDHAN': 89771013, 'Balubhau alias Suresh Narayan Dhanorkar': 254505141, 'SUNIL KUMAR SINGH': 136577304, 'DAYANIDHI MARAN': 616906711, 'Dr. KALANIDHI VEERASWAMY': 164076915, 'T.SUMATHY (A) THAMIZHACHI THANGAPANDIAN': 46093174, 'Dr. G. Ranjith Reddy': 766469612, 'NAKUL KAMAL NATH': 7567490419, 'RATHVA GITABEN VAJESINGBHAI': 6603486, 'THIRUMAAVALAVAN THOL': 675549, 'B.N.Bache Gowda': 1410135151, 'ANNASAHEB SHANKAR JOLLE': 137269415, 'A NARAYANASWAMY': 64297619, 'N. REDDEPPA': 80831618, 'Chandra Prakash Joshi': 11525970, 'RAHUL KASWAN': 48560162, 'NATARAJAN. P.R': 41400590, 'NISITH PRAMANIK': 8102996, 'T. R. V .S. RAMESH': -51499468, 'BHARTRUHARI MAHTAB': 976946810, 'DELKAR MOHANBHAI SANJIBHAI': 964590147, 'JASHVANTSINH SUMANBHAI BHABHOR': 48070702, 'NALIN KUMAR KATEEL': 20623417, 'LALUBHAI BABUBHAI PATEL': 745786922, 'PRAHALAD SINGH PATEL': 42249282, 'Gopal Jee Thakur': 74198021, 'RAJU BISTA': -32067627, 'Jaskaur Meena': 560111156, 'G M SIDDESHWAR': 851669677, 'RAMAPATI RAM TRIPATHI': 61010849, 'MAHENDRA SINGH SOLANKY': -1671980, 'PASHUPATI NATH SINGH': 91886722, 'CHATTARSINGH DARBAR': 17761188, 'DNV SENTHILKUMAR. S.': 40152484, 'Pralhad Joshi': 422405136, 'REKHA VERMA': 39665902, 'MAHESH SAHOO': 28629451, 'BADRUDDIN AJMAL': 6489067, 'Bhamre Subhash Ramrao': 112518605, 'ABHISHEK BANERJEE': 32094371, 'RAMESWAR TELI': 677043, 'VELUSAMY, P.': 355093871, 'Dr. Bharati Pravin Pawar': 344127898, 'JAGDAMBIKA PAL': 705879482, 'SOUGATA RAY': 79018254, 'SUNIL SOREN': 5076891, 'VIJAY BAGHEL': -4135444, 'GAUTAM GAMBHIR': 7038363437, 'KOTAGIRI SRIDHAR': 731622493, 'HIBI EDEN': 4670877, 'GANESHAMURTHI A': 4294, 'Rajveer Singh (Raju Bhaiya)': 735093428, 'LALLU SINGH': 16408062, 'KRISHAN PAL': 543594126, 'Mohammad Sadique': 88450858, 'Mukesh Rajput': 49917614, 'AMAR SINGH': 83608283, 'NIRANJAN JYOTI': 37118952, 'RAJKUMAR CHAHAR': 24349918, 'Dr. Chandra Sen Jadon': 39572284, 'SUKHBIR SINGH BADAL': 8101474277, 'ASHOK MAHADEORAO NETE': -47146546, 'AMIT SHAH': 301876293, 'NIHAL CHAND': 33340966, 'Tirath Singh Rawat': 65732466, 'QUEEN OJA': 552355860, 'Dr. MAHESH SHARMA': 493635363, 'Vijay Kumar': 4841440, 'ADHIKARI DEEPAK (DEV)': 572389353, 'Vijay Kumar Singh': 70245655, 'AFZAL ANSARI': 756387913, 'ATUL KUMAR SINGH': -3378778, 'Chandra Prakash Choudhary': 88953328, 'Nishikant Dubey': 500572746, 'KIRTI VARDHAN SINGH ALIAS RAJA BHAIYA': 225051401, 'DR. ALOK KUMAR SUMAN': 86571638, 'Ravindra Shyamnarayan Shukla alias Ravi Kishan': 684636649, 'DR. UMESH G JADHAV': 59790743, 'KRISHNA PAL SINGH "Dr. K. P. YADAV"': 40812677, 'Jayadev Galla': 2010990633, 'SUNNY DEOL': -106192666, 'RAO INDERJIT SINGH': 754700789, 'VIVEK NARAYAN SHEJWALKAR': 67311895, 'PASHU PATI KUMAR PARAS': 16279819, 'ANURAG SINGH THAKUR': 44912165, 'KUNWAR PUSHPENDRA SINGH CHANDEL': 866394563, 'Jai Prakash': 620642497, "Ramesh Pokhriyal 'Nishank'": 88795456, 'PRAJWAL REVANNA': 42195066, 'RAJVIR DILER': 30491, 'Dhairyasheel Sambhajirao Mane': -49727380, 'UDASI. S.C.': -299667045, 'JAYANT SINHA': -435222442, 'KURUVA GORANTLA MADHAV': 3236410, 'Hemant Patil': 36054939, 'BRIJENDRA SINGH': 670360692, 'LOCKET CHATTERJEE': 69855563, 'UDAY PRATAP SINGH': 102834324, 'SOM PARKASH': 51904942, 'Prasun Banerjee': 6616321, 'ASADUDDIN OWAISI': 376448505, 'Adv. DEAN KURIAKOSE': 1195330, 'SHANKAR LALWANI': 47018284, 'DR RAJKUMAR RANJAN SINGH': 17416961, 'RAKESH SINGH': 35125601, 'MIMI CHAKRABORTY': 70818413, 'RAJASHREE MALLICK': 94169690, 'CHANDESHWAR PRASAD': 693719213, 'Ramcharan Bohra': 707225114, 'COL. RAJYAVARDHAN RATHORE': 70087812, 'SARMISTHA SETHI': 8237581, 'Santokh Singh Chaudhary': 14892574, 'BHANU PRATAP SINGH VERMA': 51672549, 'Unmesh Bhaiyyasaheb Patil': 50881306, 'Devaji Patel': -23803258, 'Dr. JAYANTA KUMAR ROY': -1090052, 'Jugal Kishore': -139218390, 'POONAMBEN HEMATBHAI MAADAM': 14884473, 'Bidyut Baran Mahato': 58844643, 'CHIRAG KUMAR PASWAN': 6666841, 'KHALILUR RAHAMAN': 695383514, 'GUHARAM AJGALLEY': 83700841, 'SHYAM SINGH YADAV': 620162979, 'PRATIMA MONDAL': 67571742, 'DUSHYANT SINGH': 357695849, 'Ramprit Mandal': 68619808, 'Anurag Sharma': 1039017820, 'Kunar Hembram': 49886376, 'NARENDRA KUMAR': 6956912, 'Gajendra Singh Shekhawat': 436824158, 'TOPON KUMAR GOGOI': 45798697, 'CHUDASAMA RAJESHBHAI NARANBHAI': -3522033, 'CHAVDA VINOD LAKHAMSHI': -15249888, 'Y.S.Avinash Reddy': 762763636, 'Pradeep Kumar': 93792708, 'Brijbhusan Sharan Singh': -33418257, 'VANGA GEETHAVISWANATH': 505566077, 'BASANTA KUMAR PANDA': 4795, 'Gaurav Gogoi': 83422359, 'Gautham Sigamani Pon': 739930029, 'Dr. SHRIKANT EKNATH SHINDE': 49182849, 'Selvam.G': 93672814, 'ACHYUTANANDA SAMANTA': 7224412, 'Kishan Kapoor': 23131052, 'MOHAN MANDAVI': 55375066, 'SUBRAT PATHAK': 6093533, 'Vasanthakumar. H': 51873633, 'K. SUDHAKARAN': 14363088, 'Satyadev Pachauri': 800770210, 'Adhikari Sisir': 65079393, 'MAHABALI SINGH': 5142314, 'MANOJ RAJORIA': -42053726, 'KRIPANATH MALLAH': 407118, 'BANDI SANJAY KUMAR': -7997091, 'Sanjay Bhatia': 7395617, 'Jothimani S': 553867, 'Rajmohan Unnithan': 25512524, 'DULAL CHANDRA GOSWAMI': 65739300, 'VINOD KUMAR SONKAR': 2706863, 'Anubhav Mohanty': 12145891, 'JASBIR SINGH GILL (DIMPA)': 50087592, 'Choudhary Mehboob Ali Kaiser': 313889710, 'V.D. SHARMA (VISHNU DATT SHARMA)': 31728326, 'NAMA NAGESWR RAO': 3357724993, 'NANDKUMAR SINGH CHOUHAN (NANDU BHAIYA)': 50584953, 'GAJENDRA UMRAO SINGH PATEL': 98795218, 'Chauhan Devusinh': 19982342, 'Ajay Kumar': 45595524, 'ARJUN MUNDA': 43100447, 'Dr. Mohammad Jawed': 70784746, 'ANNPURNA DEVI': 93267838, 'Naba Kumar Sarania': 99343550, 'S. MUNISWAMY': 431508536, 'Sanjay Sadashivrao Mandlik': 47791468, 'Mala Roy': 40108031, 'BANDYOPADHYAY SUDIP': 35576116, 'N.K.Premachandran': 59123719, 'KARADI SANGANNA AMARAPPA': 45750630, 'SAPTAGIRI SANKAR ULAKA': 46456041, 'JYOTSNA CHARANDAS MAHANT': 697390615, 'OM BIRLA': 73747834, 'Thomas Chazhikadan': 47048648, 'M.K.RAGHAVAN': -7155180, 'Dr.A.CHELLAKUMAR': 883953326, 'MAHUA MOITRA': 24956926, 'AYUSHMAN DOCTOR SANJEEV KUMAR': 324975726, 'NAYAB SINGH': 62183516, 'VIJAY KUMAR DUBEY': 77213019, 'Jamyang Tsering Namgyal': 904819, 'PRADAN BARUAH': 94953473, 'MOHAMMED FAIZAL PP': 641389, 'Sangeeta Azad': 77051848, 'Sudhakar Tukaram Shrangare': -299713782, 'SUDARSHAN BHAGAT': 30347036, 'Rajnath Singh': 70992145, 'RAVNEET SINGH BITTU': 7018292, 'Bholanath (B.P. Saroj)': 377884914, 'BALASHOWRY VALLABHANENI': -3355775, 'Ranjeetsinha Hindurao Naik- Nimbalkar': 5498894882, 'Dinesh Chandra Yadav': 95320736, 'ASHOK KUMAR YADAV': 4120386, 'VENKATESAN S': 4561118, 'Kavitha Malothu': 26246759, 'PANKAJ CHOUDHARY': 108783493, 'Janardan Singh \'Sigriwal"': 98650278, 'CHUNNI LAL SAHU': 68243438, 'MANNE SRINIVAS REDDY': 9836391, 'SHARDABEN ANILBHAI PATEL': 292142570, 'MULAYAM SINGH YADAV': 527290418, 'P.K. Kunhalikutty': 53532295, 'ABU HASEM KHAN CHOWDHURY (DALU)': 520483640, 'KHAGEN MURMU': 34785011, 'ANUMULA REVANTH REDDY': 152167542, 'RAM SWAROOP SHARMA': 32760734, 'FAGGAN SINGH KULASTE': 36552662, 'Sudheer Gupta': 94124102, 'SUMALATHA AMBAREESH': 110011702, 'DILIP SAIKIA': 2860662, 'HEMA MALINI': 2864201289, 'CHOUDHURY MOHAN JATUA': 30467061, 'SHRIRANG APPA CHANDU BARNE': 1340420857, 'KODIKUNNIL SURESH': 12145462, 'RAMALINGAM. S': 9555179, 'BISHWESWAR TUDU': 4223, 'Kotha Prabhakar Reddy': 7534497035, 'Dilip Ghosh': 4623645, 'RAJENDRA AGARWAL': 36840322, 'Anupriya Singh Patel': 60170174, 'Ashok Kumar Rawat': 16068317, 'C LALROSANGA': 374011213, 'Kaushal Kishore': 56130555, 'Dr. S.T. HASAN': 54695570, 'NARENDRA SINGH TOMAR': 14783336, 'Gopal Shetty': 218821403, 'POONAM MAHAJAN': 51342222, 'Manoj Kotak': 94456645, 'Gajanan Kirtikar': 922070, 'Arvind Ganpat Sawant': 57781712, 'Rahul Ramesh Shewale': 26834004, 'RAJIV RANJAN SINGH ALIAS LALAN SINGH': 77441363, 'ABU TAHER KHAN': 6157676, 'Sanjeev Kumar Balyan': 12524248, 'Ajay Nishad': 454664258, 'PRATHAP SIMHA': 69235206, 'RAMESH CHANDRA MAJHI': 5999364, 'Tokheho Yepthomi': 474177251, 'SELVARAJ M': 4562133, 'POTHUGANTI RAMULU': 68478071, 'HANUMAN BENIWAL': 5681842, 'GIRISH CHANDRA': 58453572, 'NITIN JAIRAM GADKARI': 69638844, 'Ajay Bhatt': 52999961, 'Kaushlendra Kumar': 61260695, 'UTTAM KUMAR REDDY NALAMADA': 34901141, 'CHINRAJ A.K.P': 124612387, 'Prataprao Patil Chikhalikar': 60677270, 'Dr. Heena Vijaykumar Gavit': 507150106, 'POCHA . BRAHMANANDA REDDY': 328968941, 'LAVU SRI KRISHNA DEVARAYALU': 31765706, 'KANUMURU RAGHU RAMA KRISHNA RAJU': 233850242, 'Godse Hemant Tukaram': 984013710, 'C. R. Patil': 203599359, 'Chandan Singh': 165204470, 'Adala Prabhakara Reddy': 3390503997, 'MEENAKASHI LEKHI': 685627557, 'RAJA, A.': -6650460, 'ARVIND DHARMAPURI': -278500546, 'MANOJ TIWARI': -44345537, 'SHRIPAD YESSO NAIK': 58516462, 'HANS RAJ HANS': 682873129, 'Pradyut Bordoloi': 25722277, 'MAGUNTA SREENIVASULU REDDY': 673534387, 'Omprakash Bhupalsinh Alias Pawan Rajenimbalkar': -56245976, 'Lorho S. Pfoze': 35209371, 'V K SREEKANDAN': 3994736, 'VISHNU DAYAL RAM': 87280933, 'Rajendra Dhedya Gavit': 54493745, 'P. P. CHAUDHARY': 922697266, 'Ratansinh Magansinh Rathod': 60241911, 'JADHAV SANJAY (BANDU) HARIBHAU': -4691841, 'DR. SANJAY JAISWAL': 881978683, 'RAM KRIPAL YADAV': 43612205, 'DABHI BHARATSINHJI SHANKARJI': 13572378, 'ANTO ANTONY': 6495183, 'Preneet Kaur': 720782719, 'RAVI SHANKAR PRASAD': 591755223, 'Venkatesh Netha Borlakunta': 30097651, 'Dr.PAARIVENDHAR, T. R': 361267201, 'Keshari Devi Patel': 102132152, 'Feroze Varun Gandhi': 458950368, 'SHANMUGA SUNDARAM. K': 220132782, 'E. T. Mohammed Basheer': 2740381, 'RAMESHBHAI LAVJIBHAI DHADUK': 86199614, 'SANGAM LAL GUPTA': 512639136, 'Ve. VAITHILINGAM': 547168805, 'Girish Bhalchandra Bapat': 21340478, 'PINAKI MISRA': 3365914979, 'SANTOSH KUMAR': 29436079, 'JYOTIRMAY SINGH MAHATO': 5304458, 'RADHA MOHAN SINGH': 31316762, 'SONIA GANDHI': 916638211, 'RAJA AMARESHWARA NAIK': 37005277, 'Tatkare Sunil Dattatray': 277145280, 'DEBASREE CHAUDHURI': 817723, 'GOMATI SAI': 5394370, 'Sunil Kumar Soni': 10520380, 'MARGANI BHARAT': 284343464, 'P.V.MIDHUN REDDY': 224119646, 'RODMAL NAGAR': 25975875, 'KUNDARIA MOHANBHAI KALYANJIBHAI': -73647765, 'VIJAY KUMAR HANSDAK': 49914964, 'SANTOSH PANDEY': 88859567, 'Diya Kumari': 623845916, 'K. NAVASKANI': 109876032, 'Mohammad Azam Khan': 81424614, 'Krupal Balaji Tumane': 8570727, 'JAGANNATH SARKAR': 47622761, 'SANJAY SETH': 26744400, 'GUMAN SINGH DAMOR': 16863156, 'Vinayak Raut': 53457037, 'Khadse Raksha Nikhil': 734132717, 'JANARDAN MISHRA': 74431227, 'PAKAURI LAL KOL': 7714456, 'ARVIND KUMAR SHARMA': 19400433, 'RATHOD DIPSINH SHANKARSINH': 44397392, 'RAJBAHADUR SINGH': 82388166, 'HAJI FAZLUR REHMAN': 13546554, 'PARTHIBAN.S.R': 44831066, 'RAVINDER': 72031210, 'Ramchandra Paswan': 97517732, 'NITESH GANGA DEB': 567902495, 'DR. SHAFIQUR REHMAN BARQ': 67196321, 'Sanjaykaka Patil': 155075787, 'BHAGWANT MANN': 27427641, 'PRAVEEN KUMAR NISHAD': 3657420, 'Rajiv Pratap Rudy': 34940078, 'Renuka Singh Saruta': 46627630, 'CHHEDI PASWAN': 16630791, 'SHRIMANT CHH. UDAYANRAJE PRATAPSINHMAHARAJ BHONSLE': 1697528760, 'GANESH SINGH': 7619174, 'G . KISHAN REDDY': 77830103, 'HIMADRI SINGH': 37971036, 'Arun Kumar Sagar': -2029567, 'RAMA DEVI': 940648332, 'VINCENT H. PALA': 421159554, 'SURESH KUMAR KASHYAP': 65738193, 'B.Y.RAGHAVENDRA.': 787183656, 'SADASHIV KISAN LOKHANDE': 526003659, 'Dr. Amol Ramsing Kolhe': 50982520, 'RAM SHIROMANI': 21608408, 'Riti Pathak': 78219100, 'Sumedhanand Saraswati': 550801, 'INDRA HANG SUBBA': 817784, 'RAJDEEP ROY': 69684323, 'GEETA KORA': -3233297, 'Sunita Duggal': 34996229, 'Sunil Kumar Pintu': -75959945, 'Rajesh Verma': 71481236, 'KARTI P CHIDAMBARAM': -92520238, 'Kavita Singh': 25914807, 'SHRI. SHA. BRA. DR. JAI SIDHESHWAR SHIVACHARY MAHASWAMIJI': 7970782, 'RAMESH CHANDER KAUSHIK': 266595823, 'RAMESH BIDHURI': 703976198, 'COSME FRANCISCO CAITANO SARDINHA': 23202947, 'KALYAN BANERJEE': 898653662, 'KINJARAPU RAM MOHAN NAIDU': 42912511, 'Farooq Abdullah': 435041912, 'Baalu.T.R.': 446068820, 'MANEKA SANJAI GANDHI': 371231764, 'Jual Oram': -31557854, 'Dileshwar Kamait': 60641342, 'Darshana Vikram Jardosh': 87672382, 'Dr. MUNJAPARA MAHENDRABHAI': -1437574, 'Adhikari Dibyendu': 81767980, 'MALA RAJYA LAXMI SHAH': 1004066490, 'DHANUSH.M.KUMAR': 61430507, 'PALLAB LOCHAN DAS': 13945441, 'RAJAN BABURAO VICHARE': 392031013, 'PALANIMANICKAM,S.S.': 1645421, 'RAVEENDRANATH KUMAR, P': 15169313, 'Dr.K.Jayakumar': 76983452, 'Dr. SHASHI THAROOR': 585220035, 'KANIMOZHI KARUNANIDHI': 37842409, 'T. N. PRATHAPAN': 2283157, 'Dr Virendra Kumar': 74435733, 'Thirunavukkarasar. SU': 18461373, 'GNANATHIRAVIAM S': 232643109, 'Balli Durga Prasad Rao': 92126741, 'SUBBARAYAN, K.': 5763575, 'ANNADURAI C N': 406531590, 'Sukhbir Singh Jaunapuria': 4200238231, 'Rebati Tripura': 3154819, 'Pratima Bhoumik': 398426, 'G. S. BASAVARAJ': -716653060, 'AGATHA K. SANGMA': 81306942, 'ARJUNLAL MEENA': 7494253, 'DR. JITENDRA SINGH': 20327087, 'SHOBHA KARANDLAJE': 584687816, 'Nityanand Rai': 569515445, 'ANIL FIROJIYA': 86057310, 'SAJDA AHMED': 50799579, 'Swami Sakshi Ji Maharaj': 94160088, 'ANANTKUMAR HEGDE': -19960626, 'K. MURALEEDHARAN': 340794311, 'RANJANBEN BHATT': 42826942, 'Veena Devi (W/o Dinesh Prasad Singh)': 411955222, 'BAIDYANATH PRASAD MAHTO': 79383262, 'Dr.K.C.PATEL': 48039826, 'NARENDRA MODI': 11936512, 'Ramakant Bhargava': 28108770, 'KESINENI SRINIVAS (NANI)': -539794171, 'RAVIKUMAR D': 8284052, 'MANICKAM TAGORE, B.': 42107372, 'M V V SATYANARAYANA': 281239006, 'Bellana Chandra Sekhar': 61804991, 'DAYAKAR PASUNOORI': 69016668, 'Ramdas Chandrabhanji Tadas': 78331397, 'Rahul Gandhi': 54738643, 'PARVESH SAHIB SINGH VERMA': -18041889, 'Bhavana Pundlikrao Gawali': 16464016, 'B.B.PATIL': 5565143130}
+(1810, 18) (1810,)
+(453, 18) (453,)
+state :  36
+constituency :  534
+party :  120
+symbol :  121
+gender :  3
+category :  4
+education :  13
+LogisticRegression
+Best Score: 0.9691779514795889
+Best Parameters: {'solver': 'liblinear'}
+
+roc_auc_score is  0.8320197947214076
+f1-score is  0.7817258883248731
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 2263 entries, 0 to 2262
+Data columns (total 19 columns):
+ #   Column                                   Non-Null Count  Dtype  
+---  ------                                   --------------  -----  
+ 0   state                                    2263 non-null   object 
+ 1   constituency                             2263 non-null   object 
+ 2   name                                     2263 non-null   object 
+ 3   winner                                   2263 non-null   int64  
+ 4   party                                    2263 non-null   object 
+ 5   symbol                                   2018 non-null   object 
+ 6   gender                                   2018 non-null   object 
+ 7   criminal_cases                           2018 non-null   object 
+ 8   age                                      2018 non-null   float64
+ 9   category                                 2018 non-null   object 
+ 10  education                                2018 non-null   object 
+ 11  assets                                   2018 non-null   object 
+ 12  liabilities                              2018 non-null   object 
+ 13  general_votes                            2263 non-null   int64  
+ 14  postal_votes                             2263 non-null   int64  
+ 15  total_votes                              2263 non-null   int64  
+ 16  over_total_electors_in_constituency      2263 non-null   float64
+ 17  over_total_votes_polled_in_constituency  2263 non-null   float64
+ 18  total_electors                           2263 non-null   int64  
+dtypes: float64(3), int64(5), object(11)
+memory usage: 336.0+ KB
+number of indian states:  36
+75 women succeded from  258
+state is :  Uttar Pradesh
+winner woman:  Rita Bahuguna Joshi  constituency:  ALLAHABAD
+winner woman:  Smriti Irani  constituency:  AMETHI
+winner woman:  REKHA VERMA  constituency:  DHAURAHRA
+winner woman:  NIRANJAN JYOTI  constituency:  FATEHPUR
+winner woman:  Sangeeta Azad  constituency:  LALGANJ
+winner woman:  HEMA MALINI  constituency:  MATHURA
+winner woman:  Anupriya Singh Patel  constituency:  MIRZAPUR
+winner woman:  Keshari Devi Patel  constituency:  PHULPUR
+winner woman:  SONIA GANDHI  constituency:  RAE BARELI
+winner woman:  MANEKA SANJAI GANDHI  constituency:  SULTANPUR
+state is :  Gujarat
+winner woman:  DR.BHARATIBEN DHIRUBHAI SHIYAL  constituency:  BHAVNAGAR
+winner woman:  RATHVA GITABEN VAJESINGBHAI  constituency:  CHHOTA UDAIPUR
+winner woman:  POONAMBEN HEMATBHAI MAADAM  constituency:  JAMNAGAR
+winner woman:  SHARDABEN ANILBHAI PATEL  constituency:  MAHESANA
+winner woman:  Darshana Vikram Jardosh  constituency:  SURAT
+winner woman:  RANJANBEN BHATT  constituency:  VADODARA
+state is :  Kerala
+winner woman:  RAMYA HARIDAS  constituency:  ALATHUR
+state is :  West Bengal
+winner woman:  APARUPA PODDAR (AFRIN ALI)  constituency:  ARAMBAGH
+winner woman:  Dr. Kakoli Ghoshdastidar  constituency:  BARASAT
+winner woman:  Nusrat Jahan Ruhi  constituency:  BASIRHAT
+winner woman:  SATABDI ROY  constituency:  BIRBHUM
+winner woman:  LOCKET CHATTERJEE  constituency:  HOOGHLY
+winner woman:  MIMI CHAKRABORTY  constituency:  JADAVPUR
+winner woman:  PRATIMA MONDAL  constituency:  JAYNAGAR
+winner woman:  Mala Roy  constituency:  KOLKATA DAKSHIN
+winner woman:  MAHUA MOITRA  constituency:  KRISHNANAGAR
+winner woman:  DEBASREE CHAUDHURI  constituency:  RAIGANJ
+winner woman:  SAJDA AHMED  constituency:  ULUBERIA
+state is :  Andhra Pradesh
+winner woman:  CHINTA ANURADHA  constituency:  AMALAPURAM
+winner woman:  Dr.Beesetti Venkata Satyavathi  constituency:  ANAKAPALLI
+winner woman:  GODDETI. MADHAVI  constituency:  ARUKU
+winner woman:  VANGA GEETHAVISWANATH  constituency:  KAKINADA
+state is :  Haryana
+winner woman:  Sunita Duggal  constituency:  SIRSA
+state is :  Maharashtra
+winner woman:  Navnit Ravi Rana  constituency:  AMRAVATI
+winner woman:  Supriya Sule  constituency:  BARAMATI
+winner woman:  Pritam Gopinathrao Munde  constituency:  BEED
+winner woman:  Dr. Bharati Pravin Pawar  constituency:  DINDORI
+winner woman:  POONAM MAHAJAN  constituency:  MUMBAI NORTH CENTRAL
+winner woman:  Dr. Heena Vijaykumar Gavit  constituency:  NANDURBAR
+winner woman:  Khadse Raksha Nikhil  constituency:  RAVER
+winner woman:  Bhavana Pundlikrao Gawali  constituency:  YAVATMAL-WASHIM
+state is :  Punjab
+winner woman:  Harsimrat Kaur Badal  constituency:  BATHINDA
+winner woman:  Preneet Kaur  constituency:  PATIALA
+state is :  Jammu & Kashmir
+state is :  Tamil Nadu
+winner woman:  T.SUMATHY (A) THAMIZHACHI THANGAPANDIAN  constituency:  CHENNAI SOUTH
+winner woman:  Jothimani S  constituency:  KARUR
+winner woman:  KANIMOZHI KARUNANIDHI  constituency:  THOOTHUKKUDI
+state is :  Arunachal Pradesh
+state is :  Odisha
+winner woman:  Pramila Bisoyi  constituency:  ASKA
+winner woman:  MANJULATA MANDAL  constituency:  BHADRAK
+winner woman:  APARAJITA SARANGI  constituency:  BHUBANESWAR
+winner woman:  Sangeeta Kumari Singh Deo  constituency:  BOLANGIR
+winner woman:  RAJASHREE MALLICK  constituency:  JAGATSINGHPUR
+winner woman:  SARMISTHA SETHI  constituency:  JAJPUR
+state is :  Karnataka
+winner woman:  SUMALATHA AMBAREESH  constituency:  MANDYA
+winner woman:  SHOBHA KARANDLAJE  constituency:  UDUPI CHIKMAGALUR
+state is :  Bihar
+winner woman:  RAMA DEVI  constituency:  SHEOHAR
+winner woman:  Kavita Singh  constituency:  SIWAN
+winner woman:  Veena Devi (W/o Dinesh Prasad Singh)  constituency:  VAISHALI
+state is :  Rajasthan
+winner woman:  RANJEETA KOLI  constituency:  BHARATPUR
+winner woman:  Jaskaur Meena  constituency:  DAUSA
+winner woman:  Diya Kumari  constituency:  RAJSAMAND
+state is :  Madhya Pradesh
+winner woman:  SANDHYA RAY  constituency:  BHIND
+winner woman:  SADHVI PRAGYA SINGH THAKUR  constituency:  BHOPAL
+winner woman:  HIMADRI SINGH  constituency:  SHAHDOL
+winner woman:  Riti Pathak  constituency:  SIDHI
+state is :  Chandigarh
+winner woman:  KIRRON KHER  constituency:  CHANDIGARH
+state is :  Dadra & Nagar Haveli
+state is :  Chhattisgarh
+winner woman:  JYOTSNA CHARANDAS MAHANT  constituency:  KORBA
+winner woman:  GOMATI SAI  constituency:  RAIGARH
+winner woman:  Renuka Singh Saruta  constituency:  SARGUJA
+state is :  NCT OF Delhi
+winner woman:  MEENAKASHI LEKHI  constituency:  NEW DELHI
+state is :  Assam
+winner woman:  QUEEN OJA  constituency:  GAUHATI
+state is :  Telangana
+winner woman:  Kavitha Malothu  constituency:  MAHABUBABAD
+state is :  Jharkhand
+winner woman:  ANNPURNA DEVI  constituency:  KODARMA
+winner woman:  GEETA KORA  constituency:  SINGHBHUM
+state is :  Puducherry
+state is :  Uttarakhand
+winner woman:  MALA RAJYA LAXMI SHAH  constituency:  TEHRI GARHWAL
+state is :  Tripura
+winner woman:  Pratima Bhoumik  constituency:  TRIPURA WEST
+state is :  Meghalaya
+winner woman:  AGATHA K. SANGMA  constituency:  TURA
+edcational level:  12th Pass
+0.26953125
+edcational level:  Post Graduate
+0.268389662027833
+edcational level:  nan
+edcational level:  Doctorate
+0.3150684931506849
+edcational level:  Graduate
+0.29931972789115646
+edcational level:  Others
+0.34
+edcational level:  10th Pass
+0.22959183673469388
+edcational level:  8th Pass
+0.15384615384615385
+edcational level:  Graduate Professional
+0.29464285714285715
+edcational level:  Literate
+0.06666666666666667
+edcational level:  Illiterate
+0.2
+edcational level:  5th Pass
+0.14285714285714285
+edcational level:  Not Available
+0.0
+{'SOYAM BAPU RAO': 3699618, 'Satyapal Singh Baghel': -1546259, 'Dr. SUJAY RADHAKRISHNA VIKHEPATIL': 567006290, 'Patel Hasmukhbhai Somabhai': 63324205, 'DR. KIRIT P. SOLANKI': 3974948, 'Bhagirath Chaudhary': 67979535, "Devendra Singh 'Bhole'": 60781257, 'Dhotre Sanjay Shamrao': -54431774, 'Adv. A M ARIFF': 83666499, 'RAMYA HARIDAS': 8165211, 'SATISH KUMAR GAUTAM': 541533708, 'JOHN BARLA': 7301814, 'Rita Bahuguna Joshi': 33019676, 'Ajay Tamta': 4396544, 'Balak Nath': 929523, 'CHINTA ANURADHA': 32220474, 'RATTAN LAL KATARIA': 49099554, 'Ritesh Pandey': 93817758, 'Smriti Irani': 609991011, 'Navnit Ravi Rana': 558568455, 'Kachhadiya Naranbhai Bhikhabhai': 75339305, 'GURJEET SINGH AUJLA': 68258213, 'KUNWAR DANISH ALI': 18740546, 'Dr.Beesetti Venkata Satyavathi': -3512952, 'PATEL MITESH RAMESHBHAI (BAKABHAI)': -3057371, 'Manish Tewari': 860374615, 'TALARI RANGAIAH': 3699660, 'HASNAIN MASOODI': 67220768, 'KULDEEP RAI SHARMA': -74717835, 'DHARMENDRA KASHYAP': 47263739, 'S. JAGATHRAKSHAKAN': 8005812825, 'APARUPA PODDAR (AFRIN ALI)': 59722809, 'VISHNU PRASAD M K': 765135180, 'PRADEEP KUMAR SINGH': 3765139, 'R. K. Singh': 72071997, 'GODDETI. MADHAVI': 179411, 'Tapir Gao': 259286613, 'KIREN RIJIJU': 79521, 'BABUL SUPRIYO': 80792668, 'Pramila Bisoyi': 470327, 'Adv. ADOOR PRAKASH': 544461252, 'SUSHIL KUMAR SINGH': 103883179, 'Imtiaz Jaleel Syed': 76862884, 'NARESH YADAV': 17774013, 'HOREN SING BEY': 54997403, 'Akhilesh Yadav': 166592509, 'Gaddigoudar Parvatagouda Chandanagouda': 56461615, 'Dr. SATYAPAL SINGH': 79395817, 'ADHIR RANJAN CHOWDHURY': 427310625, 'AKSHAIBAR LAL': 45058734, 'DR DHAL SINGH BISEN': 6415853, 'PRATAP CHANDRA SARANGI': 2364453, 'Virendra Singh': 31998442, 'Sukanta Majumdar': 6955737, 'PARBATBHAI SAVABHAI PATEL': 17719139, 'R.K. SINGH PATEL': 8694575, 'P. C. Mohan': -650916956, 'D.V. Sadananda Gowda': -113174990, 'D.K. SURESH': 6866880032, 'TEJASVI SURYA': 5934613, 'SHANTANU THAKUR': 3886552, 'GIRIDHARI YADAV': 4315927, 'DR. SUBHAS SARKAR': 39143839, 'Kamlesh Paswan': 880416757, 'KANAKMAL KATARA': 83117258, 'NANDIGAM SURESH': 6105149, 'Upendra Singh Rawat': 5003670, 'Supriya Sule': 7048888346, 'MOHAMMAD AKBAR LONE': -587582, 'Dr. Kakoli Ghoshdastidar': 1231440, 'S.S AHLUWALIA': 74945205, 'SUNIL KUMAR MONDAL': 27772551, 'PARBHUBHAI NAGARBHAI VASAVA': 13053196, 'SANTOSH KUMAR GANGWAR': 121611011, 'Suresh Pujari': 42973161, 'KAILASH CHOUDHARY': 2500224, 'Abdul Khaleque': 609546, 'ARJUN SINGH': 6915569, 'Nusrat Jahan Ruhi': -21692779, 'DEEPAK BAIJ': 572059, 'HARISH CHANDRA ALIAS HARISH DWIVEDI': 2956063, 'Harsimrat Kaur Badal': 8101474277, 'Pritam Gopinathrao Munde': 3230, 'Giriraj Singh': 57688087, 'ANGADI SURESH CHANNABASAPPA': -113152283, 'Y. DEVENDRAPPA': 87806512, 'CHANDRA SEKHAR SAHU': 98916171, 'DURGA DAS (D.D.) UIKEY': 52409783, 'RAMESH CHAND': -26506753, 'MANJULATA MANDAL': 87622054, 'AJAY KUMAR MANDAL': -6216285, 'Sunil Baburao Mendhe': 581575581, 'RANJEETA KOLI': 1901731, 'Mansukhbhai Dhanjibhai Vasava': 9573568, 'DR.BHARATIBEN DHIRUBHAI SHIYAL': 15784835, 'SUBHASH CHANDRA BAHERIA': 272230005, 'SANDHYA RAY': 66007774, 'KAPIL MORESHWAR PATIL': 776914285, 'Dharambir Singh S/o Bhale Ram': 20541664, 'Komati Reddy Venkat Reddy': 832463114, 'SADHVI PRAGYA SINGH THAKUR': 224444, 'APARAJITA SARANGI': 50484220, 'BHAGWANTH KHUBA': 41597164, 'JIGAJINAGI RAMESH CHANDAPPA': 985224134, 'MALOOK NAGAR': -1551964519, 'ARJUN RAM MEGHWAL': 42778342, 'ARUN SAO': 58844301, 'SATABDI ROY': 27948003, 'KHAN SAUMITRA': 6567976, 'Sangeeta Kumari Singh Deo': 851909462, 'ASIT KUMAR MAL': 6911013, 'BHOLA SINGH': 86128871, 'Jadhav Prataprao Ganpatrao': 966243854, 'Ashwini Kumar Choubey': 54608001, 'BENNY BEHANAN': 92222883, 'V. SRINIVAS PRASAD': 440134571, 'Dr. Mahendra Nath Pandey': 73459333, 'KIRRON KHER': 572946985, 'HARSH VARDHAN': 89771013, 'Balubhau alias Suresh Narayan Dhanorkar': 254505141, 'SUNIL KUMAR SINGH': 136577304, 'DAYANIDHI MARAN': 616906711, 'Dr. KALANIDHI VEERASWAMY': 164076915, 'T.SUMATHY (A) THAMIZHACHI THANGAPANDIAN': 46093174, 'Dr. G. Ranjith Reddy': 766469612, 'NAKUL KAMAL NATH': 7567490419, 'RATHVA GITABEN VAJESINGBHAI': 6603486, 'THIRUMAAVALAVAN THOL': 675549, 'B.N.Bache Gowda': 1410135151, 'ANNASAHEB SHANKAR JOLLE': 137269415, 'A NARAYANASWAMY': 64297619, 'N. REDDEPPA': 80831618, 'Chandra Prakash Joshi': 11525970, 'RAHUL KASWAN': 48560162, 'NATARAJAN. P.R': 41400590, 'NISITH PRAMANIK': 8102996, 'T. R. V .S. RAMESH': -51499468, 'BHARTRUHARI MAHTAB': 976946810, 'DELKAR MOHANBHAI SANJIBHAI': 964590147, 'JASHVANTSINH SUMANBHAI BHABHOR': 48070702, 'NALIN KUMAR KATEEL': 20623417, 'LALUBHAI BABUBHAI PATEL': 745786922, 'PRAHALAD SINGH PATEL': 42249282, 'Gopal Jee Thakur': 74198021, 'RAJU BISTA': -32067627, 'Jaskaur Meena': 560111156, 'G M SIDDESHWAR': 851669677, 'RAMAPATI RAM TRIPATHI': 61010849, 'MAHENDRA SINGH SOLANKY': -1671980, 'PASHUPATI NATH SINGH': 91886722, 'CHATTARSINGH DARBAR': 17761188, 'DNV SENTHILKUMAR. S.': 40152484, 'Pralhad Joshi': 422405136, 'REKHA VERMA': 39665902, 'MAHESH SAHOO': 28629451, 'BADRUDDIN AJMAL': 6489067, 'Bhamre Subhash Ramrao': 112518605, 'ABHISHEK BANERJEE': 32094371, 'RAMESWAR TELI': 677043, 'VELUSAMY, P.': 355093871, 'Dr. Bharati Pravin Pawar': 344127898, 'JAGDAMBIKA PAL': 705879482, 'SOUGATA RAY': 79018254, 'SUNIL SOREN': 5076891, 'VIJAY BAGHEL': -4135444, 'GAUTAM GAMBHIR': 7038363437, 'KOTAGIRI SRIDHAR': 731622493, 'HIBI EDEN': 4670877, 'GANESHAMURTHI A': 4294, 'Rajveer Singh (Raju Bhaiya)': 735093428, 'LALLU SINGH': 16408062, 'KRISHAN PAL': 543594126, 'Mohammad Sadique': 88450858, 'Mukesh Rajput': 49917614, 'AMAR SINGH': 83608283, 'NIRANJAN JYOTI': 37118952, 'RAJKUMAR CHAHAR': 24349918, 'Dr. Chandra Sen Jadon': 39572284, 'SUKHBIR SINGH BADAL': 8101474277, 'ASHOK MAHADEORAO NETE': -47146546, 'AMIT SHAH': 301876293, 'NIHAL CHAND': 33340966, 'Tirath Singh Rawat': 65732466, 'QUEEN OJA': 552355860, 'Dr. MAHESH SHARMA': 493635363, 'Vijay Kumar': 4841440, 'ADHIKARI DEEPAK (DEV)': 572389353, 'Vijay Kumar Singh': 70245655, 'AFZAL ANSARI': 756387913, 'ATUL KUMAR SINGH': -3378778, 'Chandra Prakash Choudhary': 88953328, 'Nishikant Dubey': 500572746, 'KIRTI VARDHAN SINGH ALIAS RAJA BHAIYA': 225051401, 'DR. ALOK KUMAR SUMAN': 86571638, 'Ravindra Shyamnarayan Shukla alias Ravi Kishan': 684636649, 'DR. UMESH G JADHAV': 59790743, 'KRISHNA PAL SINGH "Dr. K. P. YADAV"': 40812677, 'Jayadev Galla': 2010990633, 'SUNNY DEOL': -106192666, 'RAO INDERJIT SINGH': 754700789, 'VIVEK NARAYAN SHEJWALKAR': 67311895, 'PASHU PATI KUMAR PARAS': 16279819, 'ANURAG SINGH THAKUR': 44912165, 'KUNWAR PUSHPENDRA SINGH CHANDEL': 866394563, 'Jai Prakash': 620642497, "Ramesh Pokhriyal 'Nishank'": 88795456, 'PRAJWAL REVANNA': 42195066, 'RAJVIR DILER': 30491, 'Dhairyasheel Sambhajirao Mane': -49727380, 'UDASI. S.C.': -299667045, 'JAYANT SINHA': -435222442, 'KURUVA GORANTLA MADHAV': 3236410, 'Hemant Patil': 36054939, 'BRIJENDRA SINGH': 670360692, 'LOCKET CHATTERJEE': 69855563, 'UDAY PRATAP SINGH': 102834324, 'SOM PARKASH': 51904942, 'Prasun Banerjee': 6616321, 'ASADUDDIN OWAISI': 376448505, 'Adv. DEAN KURIAKOSE': 1195330, 'SHANKAR LALWANI': 47018284, 'DR RAJKUMAR RANJAN SINGH': 17416961, 'RAKESH SINGH': 35125601, 'MIMI CHAKRABORTY': 70818413, 'RAJASHREE MALLICK': 94169690, 'CHANDESHWAR PRASAD': 693719213, 'Ramcharan Bohra': 707225114, 'COL. RAJYAVARDHAN RATHORE': 70087812, 'SARMISTHA SETHI': 8237581, 'Santokh Singh Chaudhary': 14892574, 'BHANU PRATAP SINGH VERMA': 51672549, 'Unmesh Bhaiyyasaheb Patil': 50881306, 'Devaji Patel': -23803258, 'Dr. JAYANTA KUMAR ROY': -1090052, 'Jugal Kishore': -139218390, 'POONAMBEN HEMATBHAI MAADAM': 14884473, 'Bidyut Baran Mahato': 58844643, 'CHIRAG KUMAR PASWAN': 6666841, 'KHALILUR RAHAMAN': 695383514, 'GUHARAM AJGALLEY': 83700841, 'SHYAM SINGH YADAV': 620162979, 'PRATIMA MONDAL': 67571742, 'DUSHYANT SINGH': 357695849, 'Ramprit Mandal': 68619808, 'Anurag Sharma': 1039017820, 'Kunar Hembram': 49886376, 'NARENDRA KUMAR': 6956912, 'Gajendra Singh Shekhawat': 436824158, 'TOPON KUMAR GOGOI': 45798697, 'CHUDASAMA RAJESHBHAI NARANBHAI': -3522033, 'CHAVDA VINOD LAKHAMSHI': -15249888, 'Y.S.Avinash Reddy': 762763636, 'Pradeep Kumar': 93792708, 'Brijbhusan Sharan Singh': -33418257, 'VANGA GEETHAVISWANATH': 505566077, 'BASANTA KUMAR PANDA': 4795, 'Gaurav Gogoi': 83422359, 'Gautham Sigamani Pon': 739930029, 'Dr. SHRIKANT EKNATH SHINDE': 49182849, 'Selvam.G': 93672814, 'ACHYUTANANDA SAMANTA': 7224412, 'Kishan Kapoor': 23131052, 'MOHAN MANDAVI': 55375066, 'SUBRAT PATHAK': 6093533, 'Vasanthakumar. H': 51873633, 'K. SUDHAKARAN': 14363088, 'Satyadev Pachauri': 800770210, 'Adhikari Sisir': 65079393, 'MAHABALI SINGH': 5142314, 'MANOJ RAJORIA': -42053726, 'KRIPANATH MALLAH': 407118, 'BANDI SANJAY KUMAR': -7997091, 'Sanjay Bhatia': 7395617, 'Jothimani S': 553867, 'Rajmohan Unnithan': 25512524, 'DULAL CHANDRA GOSWAMI': 65739300, 'VINOD KUMAR SONKAR': 2706863, 'Anubhav Mohanty': 12145891, 'JASBIR SINGH GILL (DIMPA)': 50087592, 'Choudhary Mehboob Ali Kaiser': 313889710, 'V.D. SHARMA (VISHNU DATT SHARMA)': 31728326, 'NAMA NAGESWR RAO': 3357724993, 'NANDKUMAR SINGH CHOUHAN (NANDU BHAIYA)': 50584953, 'GAJENDRA UMRAO SINGH PATEL': 98795218, 'Chauhan Devusinh': 19982342, 'Ajay Kumar': 45595524, 'ARJUN MUNDA': 43100447, 'Dr. Mohammad Jawed': 70784746, 'ANNPURNA DEVI': 93267838, 'Naba Kumar Sarania': 99343550, 'S. MUNISWAMY': 431508536, 'Sanjay Sadashivrao Mandlik': 47791468, 'Mala Roy': 40108031, 'BANDYOPADHYAY SUDIP': 35576116, 'N.K.Premachandran': 59123719, 'KARADI SANGANNA AMARAPPA': 45750630, 'SAPTAGIRI SANKAR ULAKA': 46456041, 'JYOTSNA CHARANDAS MAHANT': 697390615, 'OM BIRLA': 73747834, 'Thomas Chazhikadan': 47048648, 'M.K.RAGHAVAN': -7155180, 'Dr.A.CHELLAKUMAR': 883953326, 'MAHUA MOITRA': 24956926, 'AYUSHMAN DOCTOR SANJEEV KUMAR': 324975726, 'NAYAB SINGH': 62183516, 'VIJAY KUMAR DUBEY': 77213019, 'Jamyang Tsering Namgyal': 904819, 'PRADAN BARUAH': 94953473, 'MOHAMMED FAIZAL PP': 641389, 'Sangeeta Azad': 77051848, 'Sudhakar Tukaram Shrangare': -299713782, 'SUDARSHAN BHAGAT': 30347036, 'Rajnath Singh': 70992145, 'RAVNEET SINGH BITTU': 7018292, 'Bholanath (B.P. Saroj)': 377884914, 'BALASHOWRY VALLABHANENI': -3355775, 'Ranjeetsinha Hindurao Naik- Nimbalkar': 5498894882, 'Dinesh Chandra Yadav': 95320736, 'ASHOK KUMAR YADAV': 4120386, 'VENKATESAN S': 4561118, 'Kavitha Malothu': 26246759, 'PANKAJ CHOUDHARY': 108783493, 'Janardan Singh \'Sigriwal"': 98650278, 'CHUNNI LAL SAHU': 68243438, 'MANNE SRINIVAS REDDY': 9836391, 'SHARDABEN ANILBHAI PATEL': 292142570, 'MULAYAM SINGH YADAV': 527290418, 'P.K. Kunhalikutty': 53532295, 'ABU HASEM KHAN CHOWDHURY (DALU)': 520483640, 'KHAGEN MURMU': 34785011, 'ANUMULA REVANTH REDDY': 152167542, 'RAM SWAROOP SHARMA': 32760734, 'FAGGAN SINGH KULASTE': 36552662, 'Sudheer Gupta': 94124102, 'SUMALATHA AMBAREESH': 110011702, 'DILIP SAIKIA': 2860662, 'HEMA MALINI': 2864201289, 'CHOUDHURY MOHAN JATUA': 30467061, 'SHRIRANG APPA CHANDU BARNE': 1340420857, 'KODIKUNNIL SURESH': 12145462, 'RAMALINGAM. S': 9555179, 'BISHWESWAR TUDU': 4223, 'Kotha Prabhakar Reddy': 7534497035, 'Dilip Ghosh': 4623645, 'RAJENDRA AGARWAL': 36840322, 'Anupriya Singh Patel': 60170174, 'Ashok Kumar Rawat': 16068317, 'C LALROSANGA': 374011213, 'Kaushal Kishore': 56130555, 'Dr. S.T. HASAN': 54695570, 'NARENDRA SINGH TOMAR': 14783336, 'Gopal Shetty': 218821403, 'POONAM MAHAJAN': 51342222, 'Manoj Kotak': 94456645, 'Gajanan Kirtikar': 922070, 'Arvind Ganpat Sawant': 57781712, 'Rahul Ramesh Shewale': 26834004, 'RAJIV RANJAN SINGH ALIAS LALAN SINGH': 77441363, 'ABU TAHER KHAN': 6157676, 'Sanjeev Kumar Balyan': 12524248, 'Ajay Nishad': 454664258, 'PRATHAP SIMHA': 69235206, 'RAMESH CHANDRA MAJHI': 5999364, 'Tokheho Yepthomi': 474177251, 'SELVARAJ M': 4562133, 'POTHUGANTI RAMULU': 68478071, 'HANUMAN BENIWAL': 5681842, 'GIRISH CHANDRA': 58453572, 'NITIN JAIRAM GADKARI': 69638844, 'Ajay Bhatt': 52999961, 'Kaushlendra Kumar': 61260695, 'UTTAM KUMAR REDDY NALAMADA': 34901141, 'CHINRAJ A.K.P': 124612387, 'Prataprao Patil Chikhalikar': 60677270, 'Dr. Heena Vijaykumar Gavit': 507150106, 'POCHA . BRAHMANANDA REDDY': 328968941, 'LAVU SRI KRISHNA DEVARAYALU': 31765706, 'KANUMURU RAGHU RAMA KRISHNA RAJU': 233850242, 'Godse Hemant Tukaram': 984013710, 'C. R. Patil': 203599359, 'Chandan Singh': 165204470, 'Adala Prabhakara Reddy': 3390503997, 'MEENAKASHI LEKHI': 685627557, 'RAJA, A.': -6650460, 'ARVIND DHARMAPURI': -278500546, 'MANOJ TIWARI': -44345537, 'SHRIPAD YESSO NAIK': 58516462, 'HANS RAJ HANS': 682873129, 'Pradyut Bordoloi': 25722277, 'MAGUNTA SREENIVASULU REDDY': 673534387, 'Omprakash Bhupalsinh Alias Pawan Rajenimbalkar': -56245976, 'Lorho S. Pfoze': 35209371, 'V K SREEKANDAN': 3994736, 'VISHNU DAYAL RAM': 87280933, 'Rajendra Dhedya Gavit': 54493745, 'P. P. CHAUDHARY': 922697266, 'Ratansinh Magansinh Rathod': 60241911, 'JADHAV SANJAY (BANDU) HARIBHAU': -4691841, 'DR. SANJAY JAISWAL': 881978683, 'RAM KRIPAL YADAV': 43612205, 'DABHI BHARATSINHJI SHANKARJI': 13572378, 'ANTO ANTONY': 6495183, 'Preneet Kaur': 720782719, 'RAVI SHANKAR PRASAD': 591755223, 'Venkatesh Netha Borlakunta': 30097651, 'Dr.PAARIVENDHAR, T. R': 361267201, 'Keshari Devi Patel': 102132152, 'Feroze Varun Gandhi': 458950368, 'SHANMUGA SUNDARAM. K': 220132782, 'E. T. Mohammed Basheer': 2740381, 'RAMESHBHAI LAVJIBHAI DHADUK': 86199614, 'SANGAM LAL GUPTA': 512639136, 'Ve. VAITHILINGAM': 547168805, 'Girish Bhalchandra Bapat': 21340478, 'PINAKI MISRA': 3365914979, 'SANTOSH KUMAR': 29436079, 'JYOTIRMAY SINGH MAHATO': 5304458, 'RADHA MOHAN SINGH': 31316762, 'SONIA GANDHI': 916638211, 'RAJA AMARESHWARA NAIK': 37005277, 'Tatkare Sunil Dattatray': 277145280, 'DEBASREE CHAUDHURI': 817723, 'GOMATI SAI': 5394370, 'Sunil Kumar Soni': 10520380, 'MARGANI BHARAT': 284343464, 'P.V.MIDHUN REDDY': 224119646, 'RODMAL NAGAR': 25975875, 'KUNDARIA MOHANBHAI KALYANJIBHAI': -73647765, 'VIJAY KUMAR HANSDAK': 49914964, 'SANTOSH PANDEY': 88859567, 'Diya Kumari': 623845916, 'K. NAVASKANI': 109876032, 'Mohammad Azam Khan': 81424614, 'Krupal Balaji Tumane': 8570727, 'JAGANNATH SARKAR': 47622761, 'SANJAY SETH': 26744400, 'GUMAN SINGH DAMOR': 16863156, 'Vinayak Raut': 53457037, 'Khadse Raksha Nikhil': 734132717, 'JANARDAN MISHRA': 74431227, 'PAKAURI LAL KOL': 7714456, 'ARVIND KUMAR SHARMA': 19400433, 'RATHOD DIPSINH SHANKARSINH': 44397392, 'RAJBAHADUR SINGH': 82388166, 'HAJI FAZLUR REHMAN': 13546554, 'PARTHIBAN.S.R': 44831066, 'RAVINDER': 72031210, 'Ramchandra Paswan': 97517732, 'NITESH GANGA DEB': 567902495, 'DR. SHAFIQUR REHMAN BARQ': 67196321, 'Sanjaykaka Patil': 155075787, 'BHAGWANT MANN': 27427641, 'PRAVEEN KUMAR NISHAD': 3657420, 'Rajiv Pratap Rudy': 34940078, 'Renuka Singh Saruta': 46627630, 'CHHEDI PASWAN': 16630791, 'SHRIMANT CHH. UDAYANRAJE PRATAPSINHMAHARAJ BHONSLE': 1697528760, 'GANESH SINGH': 7619174, 'G . KISHAN REDDY': 77830103, 'HIMADRI SINGH': 37971036, 'Arun Kumar Sagar': -2029567, 'RAMA DEVI': 940648332, 'VINCENT H. PALA': 421159554, 'SURESH KUMAR KASHYAP': 65738193, 'B.Y.RAGHAVENDRA.': 787183656, 'SADASHIV KISAN LOKHANDE': 526003659, 'Dr. Amol Ramsing Kolhe': 50982520, 'RAM SHIROMANI': 21608408, 'Riti Pathak': 78219100, 'Sumedhanand Saraswati': 550801, 'INDRA HANG SUBBA': 817784, 'RAJDEEP ROY': 69684323, 'GEETA KORA': -3233297, 'Sunita Duggal': 34996229, 'Sunil Kumar Pintu': -75959945, 'Rajesh Verma': 71481236, 'KARTI P CHIDAMBARAM': -92520238, 'Kavita Singh': 25914807, 'SHRI. SHA. BRA. DR. JAI SIDHESHWAR SHIVACHARY MAHASWAMIJI': 7970782, 'RAMESH CHANDER KAUSHIK': 266595823, 'RAMESH BIDHURI': 703976198, 'COSME FRANCISCO CAITANO SARDINHA': 23202947, 'KALYAN BANERJEE': 898653662, 'KINJARAPU RAM MOHAN NAIDU': 42912511, 'Farooq Abdullah': 435041912, 'Baalu.T.R.': 446068820, 'MANEKA SANJAI GANDHI': 371231764, 'Jual Oram': -31557854, 'Dileshwar Kamait': 60641342, 'Darshana Vikram Jardosh': 87672382, 'Dr. MUNJAPARA MAHENDRABHAI': -1437574, 'Adhikari Dibyendu': 81767980, 'MALA RAJYA LAXMI SHAH': 1004066490, 'DHANUSH.M.KUMAR': 61430507, 'PALLAB LOCHAN DAS': 13945441, 'RAJAN BABURAO VICHARE': 392031013, 'PALANIMANICKAM,S.S.': 1645421, 'RAVEENDRANATH KUMAR, P': 15169313, 'Dr.K.Jayakumar': 76983452, 'Dr. SHASHI THAROOR': 585220035, 'KANIMOZHI KARUNANIDHI': 37842409, 'T. N. PRATHAPAN': 2283157, 'Dr Virendra Kumar': 74435733, 'Thirunavukkarasar. SU': 18461373, 'GNANATHIRAVIAM S': 232643109, 'Balli Durga Prasad Rao': 92126741, 'SUBBARAYAN, K.': 5763575, 'ANNADURAI C N': 406531590, 'Sukhbir Singh Jaunapuria': 4200238231, 'Rebati Tripura': 3154819, 'Pratima Bhoumik': 398426, 'G. S. BASAVARAJ': -716653060, 'AGATHA K. SANGMA': 81306942, 'ARJUNLAL MEENA': 7494253, 'DR. JITENDRA SINGH': 20327087, 'SHOBHA KARANDLAJE': 584687816, 'Nityanand Rai': 569515445, 'ANIL FIROJIYA': 86057310, 'SAJDA AHMED': 50799579, 'Swami Sakshi Ji Maharaj': 94160088, 'ANANTKUMAR HEGDE': -19960626, 'K. MURALEEDHARAN': 340794311, 'RANJANBEN BHATT': 42826942, 'Veena Devi (W/o Dinesh Prasad Singh)': 411955222, 'BAIDYANATH PRASAD MAHTO': 79383262, 'Dr.K.C.PATEL': 48039826, 'NARENDRA MODI': 11936512, 'Ramakant Bhargava': 28108770, 'KESINENI SRINIVAS (NANI)': -539794171, 'RAVIKUMAR D': 8284052, 'MANICKAM TAGORE, B.': 42107372, 'M V V SATYANARAYANA': 281239006, 'Bellana Chandra Sekhar': 61804991, 'DAYAKAR PASUNOORI': 69016668, 'Ramdas Chandrabhanji Tadas': 78331397, 'Rahul Gandhi': 54738643, 'PARVESH SAHIB SINGH VERMA': -18041889, 'Bhavana Pundlikrao Gawali': 16464016, 'B.B.PATIL': 5565143130}
+(1810, 18) (1810,)
+(453, 18) (453,)
+state :  36
+constituency :  534
+party :  120
+symbol :  121
+gender :  3
+category :  4
+education :  13
+LogisticRegression
+Best Score: 0.9691779514795889
+Best Parameters: {'solver': 'liblinear'}
+
+roc_auc_score is  0.8320197947214076
+f1-score is  0.7817258883248731
