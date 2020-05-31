@@ -4,14 +4,23 @@ header {
     margin-bottom: 12vh;
 }
 
+body    {
+    background-color: #E8E8E8 !important;
+}
+
+table   {
+    border: 5px solid black !important;
+    border-radius: 15px !important;
+}
+
 td, th  {
     font-size: large;
 }
 
 .image-holder    {
+    background-color: white !important;
     border: 5px solid black !important;
     border-radius: 15px;
     padding: 5vh;
-    margin: 5vh 0vh 5vh 0vh; 
-    width: 500px;
+    margin: 5vh 0vh 5vh 0vh;
 }
