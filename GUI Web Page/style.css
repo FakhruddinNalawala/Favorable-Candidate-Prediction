@@ -6,7 +6,7 @@ header {
     /* margin-bottom: 11vh; */
 }
 
-main    {   margin-top: 85.7px !important;  }
+main    {   margin: 85.7px 0px 49px 0px !important;  }
 
 table   {
     border: 5px solid black !important;
