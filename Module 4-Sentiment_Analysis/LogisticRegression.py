@@ -10,6 +10,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import f1_score
 from sklearn.utils import shuffle
+import warnings
+
+warnings.filterwarnings("ignore", category=Warning)
 
 ##Printing info for gensim pre trained word embeddings
 # info = api.info()
@@ -164,14 +167,14 @@ print(f1_score(yvalid,prediction_int,average=None))
 print(f1_score(yvalid,prediction_int,average='weighted'))
 print(f1_score(yvalid,prediction_int,average='micro'))
 #
-test_pred = lreg.predict_proba(test_bow)
-test_pred_int = test_pred[:,1] >= 0.3
-test_pred_int = test_pred_int.astype(np.int)
-test['label'] = test_pred_int
-submission = test[['id','label','tweet']]
-submission.to_csv('sub_lreg_bow.csv', index=False) # writing data to a CSV file
+# test_pred = lreg.predict_proba(test_bow)
+# test_pred_int = test_pred[:,1] >= 0.3
+# test_pred_int = test_pred_int.astype(np.int)
+# test['label'] = test_pred_int
+# submission = test[['id','label','tweet']]
+# submission.to_csv('sub_lreg_bow.csv', index=False) # writing data to a CSV file
 
-#
+# #
 # ##USING TFIDF FEATURES
 train_tfidf = tfidf[:60000,:]
 test_tfidf = tfidf[60001:,:]
@@ -199,3 +202,22 @@ prediction_int = prediction_int.astype(np.int)
 print(f1_score(yvalid, prediction_int,average=None))
 print(f1_score(yvalid, prediction_int,average='weighted'    ))
 print(f1_score(yvalid, prediction_int,average='micro'))
+
+
+
+
+
+# Consider a Corpus C of D documents {d1,d2…..dD} and N unique tokens extracted out of the corpus C. The N tokens (words) will form a dictionary and the size of the bag-of-words matrix M will be given by D X N. Each row in the matrix M contains the frequency of tokens in document D(i).
+
+# Let us understand this using a simple example.
+
+# D1: He is a lazy boy. She is also lazy.
+
+# D2: Smith is a lazy person.
+
+# The dictionary created would be a list of unique tokens in the corpus =[‘He’,’She’,’lazy’,’boy’,’Smith’,’person’]
+
+# Here, D=2, N=6
+
+# The matrix M of size 2 X 6 will be represented as –
+
