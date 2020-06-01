@@ -3,6 +3,7 @@ import seaborn as sns
 import numpy as np 
 import pandas as pd 
 import os
+
 from sklearn.model_selection import train_test_split,GridSearchCV
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder, MinMaxScaler
 from sklearn.metrics import roc_auc_score
@@ -10,12 +11,19 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 import tensorflow as tf
+print("We're using TF", tf.__version__)
 import keras
+print("We are using Keras", keras.__version__)
 from keras.layers import Dense, Activation
 from keras.models import Sequential
 from keras import backend as K
-from sklearn.metrics import f1_score
 
+
+plt.style.use('seaborn-whitegrid')
+sns.set_style('whitegrid')
+for dirname, _, filenames in os.walk('/kaggle/input'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))
 
 election_df=pd.read_csv('./LS_2.0.csv')
 election_df.head()
@@ -29,52 +37,52 @@ num_constituency=[]
 for i in election_df['state'].unique():
     states.append(i)
     num_constituency.append(len(election_df[election_df['state']==i]['constituency'].unique()))
-# plt.figure(figsize=(20,8))
-# plt.bar(x=states,height=num_constituency)
-# plt.xlabel('states')
-# plt.ylabel('number of constituencies')
-# plt.title('number of constituencies in indian states in 2019')
-# plt.xticks(rotation=90)
-# plt.show()
-# states=[]
-# num_candidates=[]
-# for i in election_df['state'].unique():
-#     states.append(i)
-#     num_candidates.append(len(election_df[election_df['state']==i]['name'].unique()))
-# plt.figure(figsize=(20,8))
-# plt.bar(x=states,height=num_candidates)
-# plt.xlabel('states')
-# plt.ylabel('number of candidates')
-# plt.title('number of candidates in indian states in 2019')
-# plt.xticks(rotation=90)
-# plt.show()
+plt.figure(figsize=(20,8))
+plt.bar(x=states,height=num_constituency)
+plt.xlabel('states')
+plt.ylabel('number of constituencies')
+plt.title('number of constituencies in indian states in 2019')
+plt.xticks(rotation=90)
+plt.show()
+states=[]
+num_candidates=[]
+for i in election_df['state'].unique():
+    states.append(i)
+    num_candidates.append(len(election_df[election_df['state']==i]['name'].unique()))
+plt.figure(figsize=(20,8))
+plt.bar(x=states,height=num_candidates)
+plt.xlabel('states')
+plt.ylabel('number of candidates')
+plt.title('number of candidates in indian states in 2019')
+plt.xticks(rotation=90)
+plt.show()
 
-# plt.figure(figsize=(15,8))
-# election_df['winner'].value_counts().plot.pie(autopct='%.2f%%')
-# plt.title('percentage of winners and losers')
-# plt.ylabel('')
-# plt.show()
+plt.figure(figsize=(15,8))
+election_df['winner'].value_counts().plot.pie(autopct='%.2f%%')
+plt.title('percentage of winners and losers')
+plt.ylabel('')
+plt.show()
 
-# plt.figure(figsize=(20,8))
-# sns.distplot(election_df['age'])
-# plt.axvline(election_df['age'].mean(),color='red',label='mean')
-# plt.axvline(election_df['age'].median(),color='blue',label='median')
-# plt.axvline(election_df['age'].std(),color='green',label='std')
-# plt.legend()
-# plt.show()
+plt.figure(figsize=(20,8))
+sns.distplot(election_df['age'])
+plt.axvline(election_df['age'].mean(),color='red',label='mean')
+plt.axvline(election_df['age'].median(),color='blue',label='median')
+plt.axvline(election_df['age'].std(),color='green',label='std')
+plt.legend()
+plt.show()
 
-# print('number of parties: ',len(election_df['party'].unique()))
+print('number of parties: ',len(election_df['party'].unique()))
 
-# election_df['party'].value_counts()
+election_df['party'].value_counts()
 
-# plt.figure(figsize=(15,8))
-# election_df['gender'].value_counts().plot.pie(autopct='%.2f%%')
-# plt.title('percentage of males and females')
-# plt.ylabel('')
+plt.figure(figsize=(15,8))
+election_df['gender'].value_counts().plot.pie(autopct='%.2f%%')
+plt.title('percentage of males and females')
+plt.ylabel('')
 
 women_only=election_df[election_df['gender']=='FEMALE']
 women_only['winner'].value_counts().plot.bar()
-# plt.show()
+plt.show()
 
 print('75 women succeded from ',str(len(women_only)))
 
@@ -87,11 +95,11 @@ for i in women_only['state'].unique():
 
 election_df['education']=election_df['education'].str.replace('\n','')
 
-# plt.figure(figsize=(15,8))
-# election_df['education'].value_counts().plot.pie(autopct='%.2f%%')
-# plt.title('Percentage of each edcational level of the participants in 2019 election')
-# plt.ylabel('')
-# plt.show()
+plt.figure(figsize=(15,8))
+election_df['education'].value_counts().plot.pie(autopct='%.2f%%')
+plt.title('Percentage of each edcational level of the participants in 2019 election')
+plt.ylabel('')
+plt.show()
 
 for i in election_df['education'].unique():
     print('edcational level: ',i)
@@ -223,28 +231,28 @@ def select_model():
         'hyperparameters':{
             'solver':["newton-cg", "lbfgs", "liblinear"]
         }
-    # },
-    # {
-    #     'name':'KNeighborsClassifier',
-    #     'estimator':KNeighborsClassifier(),
-    #     'hyperparameters':{
-    #         "n_neighbors": range(1,20,2),
-    #         "weights": ["distance", "uniform"],
-    #         "algorithm": ["ball_tree", "kd_tree", "brute"],
-    #         "p": [1,2]
-    #     }
-    # },
-    # {
-    #     'name':'RandomForestClassifier',
-    #     'estimator':RandomForestClassifier(),
-    #     'hyperparameters':{
-    #         "n_estimators": [4, 6, 9],
-    #         "criterion": ["entropy", "gini"],
-    #         "max_depth": [2, 5, 10],
-    #         "max_features": ["log2", "sqrt"],
-    #         "min_samples_leaf": [1, 5, 8],
-    #         "min_samples_split": [2, 3, 5]
-    #     }
+    },
+    {
+        'name':'KNeighborsClassifier',
+        'estimator':KNeighborsClassifier(),
+        'hyperparameters':{
+            "n_neighbors": range(1,20,2),
+            "weights": ["distance", "uniform"],
+            "algorithm": ["ball_tree", "kd_tree", "brute"],
+            "p": [1,2]
+        }
+    },
+    {
+        'name':'RandomForestClassifier',
+        'estimator':RandomForestClassifier(),
+        'hyperparameters':{
+            "n_estimators": [4, 6, 9],
+            "criterion": ["entropy", "gini"],
+            "max_depth": [2, 5, 10],
+            "max_features": ["log2", "sqrt"],
+            "min_samples_leaf": [1, 5, 8],
+            "min_samples_split": [2, 3, 5]
+        }
     }
         
     ]
@@ -271,4 +279,3 @@ lr.fit(x_train,y_train)
 pred=lr.predict(x_test)
 
 print('roc_auc_score is ',roc_auc_score(y_test,pred))
-print('f1-score is ' ,f1_score(y_test,pred))

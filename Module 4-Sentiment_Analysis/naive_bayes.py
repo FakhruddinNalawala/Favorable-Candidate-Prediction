@@ -14,7 +14,7 @@ from collections import Counter, defaultdict
 from stop_words import get_stop_words
 
 
-tweets_data_path = './train_data/data.csv'
+tweets_data_path = './train_data/naive_bayes_data.csv'
 
 tweets = pd.read_csv(tweets_data_path, header=0)
 
