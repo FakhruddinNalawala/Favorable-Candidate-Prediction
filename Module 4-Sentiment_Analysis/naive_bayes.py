@@ -169,6 +169,8 @@
 # predict = tnb.predict(df_test)
 # score = tnb.score(predict,df_test.sentiment.tolist())
 # print(score)
+
+
 import numpy as np
 # import tensorflow as tf
 # from tensorflow import keras
