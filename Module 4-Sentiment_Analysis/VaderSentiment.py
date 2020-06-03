@@ -4,6 +4,9 @@ from numpy import mean
 from nltk.tokenize import sent_tokenize
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import re
+import warnings
+
+warnings.filterwarnings("ignore",category=Warning)
 
 def remove_pattern(input_text, pattern):
     r = re.findall(pattern, input_text)
